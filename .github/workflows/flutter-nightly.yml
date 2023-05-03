@@ -12,3 +12,6 @@ jobs:
     secrets: inherit
     with:
       upload-artifact: true
+
+permissions:
+  contents: write
